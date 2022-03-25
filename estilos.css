@@ -1,16 +1,18 @@
 .header {
-    background-color: black;
+    
     width: 100%;
-    border-bottom: 5px blue solid;
+    height: 100px;
+    border-bottom: 5px #32b9cd solid;
+    align-items: center;
 }
 
 
-h1 {
+.titulo{
     font-family: monospace;
 
-    color: turquoise;
-    margin-top: 0px;
-    margin-right: 5px;
+    color:#32b9cd;
+    margin: 0px;
+    
 }
 
 
@@ -19,12 +21,19 @@ body {
     margin-bottom: 0px;
     margin-left: 0cm;
     font-family: monospace;
+    background-color: black;
     /* sou lindo */
 }
-
-.header .container {
-    width: 70%;
+.container {
+    width: 80%;
+    margin: auto;
     display: flex;
+
+}
+.header .container {
+ justify-content: space-between;
+align-items: center;    
+height:100%;
 }
 
 .navbar {
@@ -34,5 +43,45 @@ body {
     align-items: center;
     display: flex;
     color: orange;
+border: solid 3px green ;
+padding: 0px;
+}
+p {
+    color: white;
+}
+.banner{
+    height: 500px;
+    background-image: url("../projeto-iot-revolucionario-Nick/Aula_HTML_CSS/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+}
+.banner .card {
+    background-color: beige;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn {
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    background-color: #e75459;
+    font-size: 18px; 
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: white;
 
+}
+input{
+    height:30px;
+    border:2px solid #e75459;
+    border-radius: 4px;
+
+}
+.banner .card{
+    color: #e75459;
 }
