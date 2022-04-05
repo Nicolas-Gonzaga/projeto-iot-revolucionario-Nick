@@ -1,0 +1,25 @@
+.header{
+    background-color:  rgb(192 0 0) ;
+    align-items: center;
+    width: 100vw;
+    margin-top: 0px;
+
+}
+.titulo{
+margin-top: 0px;
+    color: grey;
+}
+.Container {
+    align-items: center;
+    margin: auto;
+}
+.navbar{
+    width: 50%;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+padding: 0px;
+text-align: right;
+    
+
+}
