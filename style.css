@@ -6,8 +6,9 @@
 
 }
 .titulo{
-margin-top: 0px;
+margin-top: 0px                                                                                     ;
     color: grey;
+    font-family: cursive;
 }
 .Container {
     align-items: center;
@@ -15,11 +16,23 @@ margin-top: 0px;
 }
 .navbar{
     width: 50%;
+    margin-left: 300px ;
     list-style: none;
     justify-content: space-between;
     display: flex;
 padding: 0px;
 text-align: right;
-    
+    font-family: cursive;
+    margin-bottom: 0px;
+
+
+}
+.banner{
+    background-color: rgb(150, 0, 0);
+    background-image: url("https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2018/11/vinicola-608509464.jpg");
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0px;
+    margin-right: 0px;
 
 }
